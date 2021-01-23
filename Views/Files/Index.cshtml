@@ -1,0 +1,16 @@
+@model FileViewModel[]
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<li>
+    @foreach (var file in Model)
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Files" asp-action="Content" asp-route-id="@file.Id">@file.Name</a>
+        </li>
+    }
+</li>

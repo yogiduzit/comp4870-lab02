@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin/Release/net5.0/publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/5882ad6b-4906-4494-a610-1747ce881bd6/resourceGroups/Lab2/providers/Microsoft.Web/sites/yverma-comp4870-lab2"
+}
